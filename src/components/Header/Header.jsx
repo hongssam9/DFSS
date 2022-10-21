@@ -4,7 +4,9 @@ import header from './Header.css'
 const Header = () => {
     return (
         <div className = 'header'>
-            hello
+            <div className = 'header-stuff'>
+                <div className = ''></div>
+            </div> 
         </div>
     );
 };
