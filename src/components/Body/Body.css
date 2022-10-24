@@ -1,23 +1,34 @@
 table {
-    border: 2px solid forestgreen;
+    border: 2px solid rgb(34, 106, 139);
     width: 900px;
     height: 200px;
     margin-top: 200px;
-  }
-    
-  th {
-    border-bottom: 1px solid black;
-    text-align: left;
-  }
-    
-  td {
-    text-align: left;
-  }
+}
 
-  .body-part{
+th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td:last-child {
+    border-top: 1px solid black;
+}
+
+.body-part {
     width: 200px;
-  }
-  
-  .body-tdc {
+}
+
+.body-tdc {
     width: 50px;
-  }
+}
+
+.body-edit {
+    width: 20px;
+}

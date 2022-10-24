@@ -1,7 +1,38 @@
 import React from 'react';
 import './Body.css'
+import { BsPencilSquare } from 'react-icons/bs'
 
 const data = [
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
+    { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
+    { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
+    { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
     { Part: "5A2343-00-PPI", Title: "Backshell, ...", TDC: "Yes" },
     { Part: "1481109-00-PPI", Title: "Weld...", TDC: "Yes" },
     { Part: "3A2457-00", Title: "Backshell ...", TDC: "No" },
@@ -21,6 +52,7 @@ const body = () => {
                             <td className="body-part">{val.Part}</td>
                             <td className="body-title">{val.Title}</td>
                             <td className="body-tdc">{val.TDC}</td>
+                            <td className = "body-edit"><BsPencilSquare /></td>
                         </tr>
                     )
                 })}
