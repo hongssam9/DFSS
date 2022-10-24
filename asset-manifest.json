@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DFSS/static/css/main.bcd9d9ff.css",
+    "main.js": "/DFSS/static/js/main.f2a1f8d4.js",
+    "static/js/787.1c588046.chunk.js": "/DFSS/static/js/787.1c588046.chunk.js",
+    "static/media/nsc.png": "/DFSS/static/media/nsc.edac1da4e3681eed4686.png",
+    "index.html": "/DFSS/index.html",
+    "main.bcd9d9ff.css.map": "/DFSS/static/css/main.bcd9d9ff.css.map",
+    "main.f2a1f8d4.js.map": "/DFSS/static/js/main.f2a1f8d4.js.map",
+    "787.1c588046.chunk.js.map": "/DFSS/static/js/787.1c588046.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd9d9ff.css",
+    "static/js/main.f2a1f8d4.js"
+  ]
+}
