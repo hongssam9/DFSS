@@ -1,0 +1,23 @@
+table {
+    border: 2px solid forestgreen;
+    width: 900px;
+    height: 200px;
+    margin-top: 200px;
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+    text-align: left;
+  }
+    
+  td {
+    text-align: left;
+  }
+
+  .body-part{
+    width: 200px;
+  }
+  
+  .body-tdc {
+    width: 50px;
+  }
