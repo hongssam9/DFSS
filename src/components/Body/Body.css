@@ -2,13 +2,21 @@ table {
     border: 2px solid rgb(34, 106, 139);
     width: 900px;
     height: 200px;
-    margin-top: 200px;
+    margin-top: 500px;
 }
 
 th {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     text-align: left;
+}
+
+/* tr:hover:not(:first-child) {
+    background: rgb(171, 163, 163) !important;
+} */
+
+#body-part:hover {
+    background: rgb(171, 163, 163) !important;
 }
 
 td {
