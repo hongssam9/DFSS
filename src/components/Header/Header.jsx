@@ -9,18 +9,19 @@ const Header = () => {
         <div className='header'>
             <div className='header-stuff'>
                 <div className='header-tdc'>
-                    <strong>TDC</strong>
+                    <strong>Test Decision Code</strong>
                 </div>
                 <div className="header-nsc">
                     <img src={nsc} className="nav-logo" alt="NSC Logo" />
                 </div>
+                
                 <div className="header-options">
                     <div className="header-options_buttons"><BsHouseFill /></div>
                     <div className="header-options_buttons"><BsArrowUpRight /></div>
                     <div className="header-options_buttons"><CgProfile /></div>
                     <div className="searchBar"><input placeholder="search" /></div>
                 </div>
-             
+
             </div>
         </div>
     );

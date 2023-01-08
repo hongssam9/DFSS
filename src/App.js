@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header.jsx'
 import Body from './components/Body/Body.jsx'
 import Filter from './components/Filter/Filter.jsx'

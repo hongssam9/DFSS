@@ -1,4 +1,33 @@
-#table-filter {
+/* #table-filter {
     position: absolute;
     top: -300px;
+} */
+
+/* th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+} */
+
+.filter {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+.filter-options {
+    margin-top: 10px;
+}
+
+#filter-options_TDC {
+    display: flex;
+    align-items: center;
+}
+
+#TDC {
+    margin: 0 10px 0 0;
+}
+
+.filter-options_TDC__button {
+   
 }
