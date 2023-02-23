@@ -2,7 +2,7 @@ table {
     border: 2px solid rgb(34, 106, 139);
     width: 1200px;
     height: 200px;
-    margin-top: 450px;
+    margin-top: 480px;
 }
 
 .body-header {
@@ -37,3 +37,4 @@ table {
 ul {
     list-style-type: none; 
 }
+

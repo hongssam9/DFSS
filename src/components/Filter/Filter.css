@@ -28,6 +28,7 @@
     margin: 0 10px 0 0;
 }
 
-.filter-options_TDC__button {
-   
+#add{
+    position: absolute;
+    margin-top: 5px;
 }
