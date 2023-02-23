@@ -32,3 +32,11 @@
     position: absolute;
     margin-top: 5px;
 }
+
+#TDC_modal {
+    margin-left: 10px;
+}
+
+.tdc_modal{
+    margin-top: 5px
+}

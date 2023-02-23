@@ -2,6 +2,7 @@
 import './Body.css'
 import { BsPencilSquare } from 'react-icons/bs'
 import Accordion from 'react-bootstrap/Accordion'
+import Button from 'react-bootstrap/Button'
 
 const data = [
     {
@@ -84,7 +85,7 @@ const Body = () => {
                                         <td className="body-desc" id="body-desc_part" >{val.Part}</td>
                                         <td className="body-desc" id="body-desc_title">{val.Title}</td>
                                         <td className="body-desc" id="body-desc_TDC">{val.TDC}</td>
-                                        {/* <td className="body-edit"><BsPencilSquare /></td> */}
+                                       
                                     </tr>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -96,6 +97,7 @@ const Body = () => {
                                         <li><p>Buyer Furnished Material: {val.BFM}</p></li>
                                     </ul>
                                     {val.Description}
+                                     <Button className="body-edit"><BsPencilSquare /></Button> 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

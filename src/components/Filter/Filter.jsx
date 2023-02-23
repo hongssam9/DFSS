@@ -52,14 +52,14 @@ const Filter = () => {
                     </Modal.Header>
                     <Modal.Body>
                         <ul>
-                            <li>Part <input /></li>
-                            <li>Title <input /></li>
-                            <li>Bulk Material Lot <input /></li>
-                            <li>Heat Treat Lot <input /></li>
-                            <li>Plating Lot <input /></li>
-                            <li>Manufacturer's Lot <input /></li>
-                            <li>TDC
-                                <ButtonGroup>
+                            <li className="tdc_modal">Part <input /></li>
+                            <li className="tdc_modal">Title <input /></li>
+                            <li className="tdc_modal">Bulk Material Lot <input /></li>
+                            <li className="tdc_modal">Heat Treat Lot <input /></li>
+                            <li className="tdc_modal"> Plating Lot <input /></li>
+                            <li className="tdc_modal">Manufacturer's Lot <input /></li>
+                            <li className="tdc_modal">TDC
+                                <ButtonGroup id="TDC_modal">
                                     {radios.map((radio, idx) => (
                                         <ToggleButton
                                             className="filter-options_TDC__button"
