@@ -78,6 +78,7 @@ const Filter = () => {
                                     ))}
                                 </ButtonGroup>
                             </li>
+                            <textarea rows="5" cols="45" id="description_modal" placeholder="Comments"></textarea>
                         </ul>
 
                     </Modal.Body>
